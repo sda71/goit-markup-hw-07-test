@@ -182,10 +182,12 @@
   }
   .subscribe-field {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 24px;
     align-items: start;
-
-    /* gap: 24px; */
+  }
+  .form-foot label {
+    text-align: start;
   }
   .form-foot-input {
     width: 264px;
@@ -197,12 +199,5 @@
     display: flex;
     /* flex-direction: column; */
     align-items: center;
-  }
-  .subscribe-field label {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-background-color);
   }
 }
