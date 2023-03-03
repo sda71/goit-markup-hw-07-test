@@ -75,10 +75,7 @@ img {
   margin-right: auto;
   align-items: center;
 }
-.section {
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
+
 /* ----------------------BODY-COMMON-STYLES */
 body {
   color: var(--primary-text-color);
@@ -229,16 +226,16 @@ body {
 
 .mobile-tel-link {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 22px;
   line-height: 1.11;
   letter-spacing: normal;
   color: #4d5ae5;
   transition: color 250ms var(--transition-func);
 }
 
-.mobile-tel-link {
+/* .mobile-tel-link {
   font-size: 22px;
-}
+} */
 
 .mobile-mail-link {
   font-weight: 500;
@@ -622,7 +619,7 @@ body {
   background-size: cover;
 }  */
 
-/* -------------------FEATURES-BASE--------------- */
+/* -------------------FEATURES--------------- */
 .features {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -660,10 +657,27 @@ body {
 }
 .features-icon {
 }
-/* ----------------------------------TEAM-BASE-------------------------------- */
+/* ----------------------------------WORK----------------------------------- */
+.work {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 72px;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/* ----------------------------------TEAM-------------------------------- */
 .team {
-  padding-top: 96px;
-  padding-bottom: 96px;
   background-color: var(--secondary-background-color);
   min-width: 320px;
 }
@@ -694,7 +708,7 @@ body {
   color: var(--secondary-text-color);
   margin-bottom: 72px;
 }
-.work-text-wrapper {
+.team-text-wrapper {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
@@ -737,7 +751,7 @@ body {
 .team-link:hover {
   background-color: var(--accent-color);
 }
-/* -------------------------- Features + Work + Team-------------------------------------- */
+/* -------------------------- Work + Team-------------------------------------- */
 /* .features-list .title,
 .work-list .title,
 .team-list .title {
@@ -1009,8 +1023,7 @@ body {
 }
 .modal {
   position: absolute;
-  /* height: 100%; */
-  min-width: 100%;
+  width: calc(100% - 36px);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1058,7 +1071,7 @@ body {
   flex-direction: column;
   padding: 72px 16px 24px 16px;
   /* padding: 50px 16px 30px 16px; */
-  max-width: 392px;
+  /* max-width: 392px; */
   height: auto;
 }
 

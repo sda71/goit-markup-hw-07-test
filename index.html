@@ -15,7 +15,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/mobile.css" rel="stylesheet" />
+    <link href="./css/tablet.css" rel="stylesheet" />
+    <link href="./css/desktop.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -207,7 +210,7 @@
       </section>
 
       <!-------------------------WORK------------------------------------>
-      <!-- 
+
       <section class="work section">
         <div class="container">
           <h2 class="work-title">What are we doing</h2>
@@ -238,7 +241,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-------------------------TEAM--------------------------------->
 
@@ -253,7 +256,7 @@
                 width="264"
                 height="260"
               />
-              <div class="work-text-wrapper">
+              <div class="team-text-wrapper">
                 <h3 class="title">Mark Guerrero</h3>
                 <p class="subtitle">Product Designer</p>
                 <ul class="team-icon-list list">
@@ -309,7 +312,7 @@
                 width="264"
                 height="260"
               />
-              <div class="work-text-wrapper">
+              <div class="team-text-wrapper">
                 <h3 class="title">Tom Ford</h3>
                 <p class="subtitle">Frontend Developer</p>
                 <ul class="team-icon-list list">
@@ -365,7 +368,7 @@
                 width="264"
                 height="260"
               />
-              <div class="work-text-wrapper">
+              <div class="team-text-wrapper">
                 <h3 class="title">Camila Garcia</h3>
                 <p class="subtitle">Marketing</p>
                 <ul class="team-icon-list list">
@@ -421,7 +424,7 @@
                 width="264"
                 height="260"
               />
-              <div class="work-text-wrapper">
+              <div class="team-text-wrapper">
                 <h3 class="title">Daniel Wilson</h3>
                 <p class="subtitle">UI Designer</p>
                 <ul class="team-icon-list list">
@@ -592,26 +595,40 @@
               </li>
             </ul>
           </div>
-          <form class="form-foot">
+
+          <!-- другой варіант -->
+          <!-- <form class="subscribe" name="subscribe">
             <div class="subscribe-field">
-              <p class="form-foot-text">Subscribe</p>
-              <!-- <label for="subscribe">Subscribe</label> -->
+              <label for="subscribe">Subscribe</label>
               <input
                 type="email"
                 name="email"
-                id="email"
+                id="subscribe"
+                placeholder="E-mail"
+              />
+            </div> -->
+
+          <form class="form-foot">
+            <label for="subscribe">Subscribe</label>
+            <div class="subscribe-field">
+              <!-- <p class="form-foot-text">Subscribe</p> -->
+
+              <input
+                type="email"
+                name="email"
+                id="subscribe"
                 class="form-foot-input"
                 placeholder="E-mail"
               />
+              <button type="submit" class="form-foot-btn">
+                Subscribe
+                <svg class="form-foot-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </button>
             </div>
 
             <!-- </div> -->
-            <button type="submit" class="form-foot-btn">
-              Subscribe
-              <svg class="form-foot-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-frame"></use>
-              </svg>
-            </button>
           </form>
         </div>
       </div>

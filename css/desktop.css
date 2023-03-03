@@ -1,0 +1,66 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* ------------------------------------------HEADER------------------------------------- */
+  .logo {
+    margin-right: 76px;
+  }
+  .site-contacts {
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 1.5;
+    gap: 40px;
+  }
+  /* ---------------------------------------------HERO---------------------------------------- */
+  .section-hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .hero-title {
+    /* text-transform: none; */
+    margin-bottom: 48px;
+  }
+  .overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .overlay {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office@2x.jpg);
+    }
+  }
+  /* -------------------------------FEATURES--------------------------- */
+  .features-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .features-icon-container {
+    display: block;
+  }
+  .features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .features-text {
+    font-weight: 400;
+  }
+  /* ------------------------------------------TEAM-------------------------------------------- */
+}

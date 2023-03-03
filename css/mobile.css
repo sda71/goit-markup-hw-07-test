@@ -1,0 +1,27 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+  }
+  .mobile-tel-link {
+    font-size: 36px;
+  }
+  .modal {
+    width: 408px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.11;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .work {
+    display: none;
+  }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
