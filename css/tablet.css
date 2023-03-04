@@ -200,4 +200,22 @@
     /* flex-direction: column; */
     align-items: center;
   }
+  /* -----------------------------------PORTFOLIO-------------------------------- */
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .button-portfolio {
+    padding: 12px 24px;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .card-item {
+    width: 356px;
+  }
 }

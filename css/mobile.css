@@ -1,9 +1,25 @@
+/* FONT-SIZE TEL on MOBILE MENU */
+@media screen and (max-width: 420px) {
+  .mobile-tel-link {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .mobile-tel-link {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .mobile-tel-link {
+    font-size: 22px;
+  }
+}
+/* ------------------------------------------------------------------- */
 @media screen and (min-width: 480px) {
   .container {
     max-width: 426px;
-  }
-  .mobile-tel-link {
-    font-size: 36px;
   }
   .modal {
     width: 408px;
@@ -16,6 +32,7 @@
     line-height: 1.11;
   }
 }
+/* -------------------NON-SECTION--------------------------WORK------------------------------ */
 @media screen and (max-width: 1158px) {
   .work {
     display: none;
