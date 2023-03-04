@@ -119,7 +119,6 @@
   /* -------------------------------------MODAL----------------------------------------- */
   .form {
     padding: 72px 24px 24px 24px;
-    /* padding: 50px 16px 30px 16px; */
     width: 408px;
   }
   /* --------------------------------------FEATURES------------------------------------------ */
@@ -134,7 +133,6 @@
 
   .features-list-item {
     width: calc(100% / 2 - 24px);
-    /* max-width: 396px; */
   }
   .features-title {
     text-align: left;

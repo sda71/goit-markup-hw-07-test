@@ -66,9 +66,7 @@ img {
 }
 
 .container {
-  /* width: 100%; */
   max-width: 428px;
-  /* min-width: 320px; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -95,8 +93,6 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* margin-bottom: 16px; */
-  /* margin-right: 76px; */
 }
 .logo.head {
   color: var(--secondary-text-color);
@@ -124,8 +120,6 @@ body {
   justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 24px;
-  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 .site-nav,
 .site-contacts {
